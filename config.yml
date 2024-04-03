@@ -1,0 +1,31 @@
+credentials:
+  usernames:
+    jsmith:
+      email: jsmith@gmail.com
+      name: John Smith
+      password: $2b$12$B4R.vQDYHwHHo4CpcG0iqO5RGtLI0I3Y9zJHBO6sSORIIiVbZ9pQ6
+    hgrisman:
+      email: hgrisman@gmail.com
+      name: Hazel Grisman
+      password: $2b$12$x3h0ixsvoh5K1cv1aXAa3enfwlOVAtZyttSt3BrZqxg0O3gfqjyYK
+    jgrisman:
+      email: jgrisman@gmail.com
+      name: Jorge G
+      password: $2b$12$X6KWDrM1u4vXCcP.a557Ue8aBwT7tnQA6TTnpSKxtKV5a.OnqIqj2
+  expiry_days: 12
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+  
+cookie:
+  expiry_days: 30
+  key: random_signature_key # Must be string
+  name: simple_chatbot
+  
+preauthorized:
+  emails:
+  - jorgel.g@outlook.com
+  
+
+## add your emails and config for authentication
+  
+  
